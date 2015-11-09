@@ -1,0 +1,58 @@
+// Colors
+// Color calculator - http://razorjam.github.io/sasscolourfunctioncalculator/
+// Color names - http://name-of-color.com/
+
+$gray: #d0d0d0;
+$black: #000;
+$white: #fff;
+$blue:#31bde1;
+$mine-shaft:#333;
+$off-white:#efefef;
+$gray1:#e6e6e6;
+$dark-black:#030303;
+$light-gray:#d2d2d2;
+$star-dust:#9e9e9e;
+
+
+$base-font-sans-serif:'gotham_proregular','Helvetica',sans-serif;
+$gotham-black: 'gotham_problack';
+
+
+// Body
+$base-text-color: $mine-shaft !default;
+$base-font-size: 16px !default;
+$base-line-height: 1.1875 !default;
+$base-font-family: $base-font-sans-serif !default;
+
+$vertical-rhythm: ($base-line-height * 1em);
+
+$base-min-width:320px;
+
+// Liks
+$base-link-color: $blue;
+
+// Buttons 
+$btn-color: $white !default;
+$btn-background: $blue !default;
+$btn-padding: 0.4em 0.7em !default;
+$btn-font-size: inherit !default;
+
+// Forms
+$form-element-padding: $btn-padding !default;
+$form-element-border-color: $gray !default;
+$form-element-focus-border-color: $black !default;
+$placeholder-color: $gray !default;
+
+// Headers
+$h1-font-size: 33px !default;
+$h2-font-size: 22px !default;
+$h3-font-size: 18px !default;
+$h4-font-size: 21px !default;
+$h5-font-size: 17px !default;
+$h6-font-size: 15px !default;
+
+$headings-font-family: 'gotham_probold';
+$headings-color: $mine-shaft !default;
+
+
+$animation-speed: 0.3s;
